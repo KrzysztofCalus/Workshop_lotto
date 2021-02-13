@@ -1,7 +1,9 @@
 import random
 
 user_numbers = []
-pc_numbers = []
+pc_numbers = list(range(1, 7))
+random.shuffle(pc_numbers)
+pc_numbers = pc_numbers[:6]
 correct_number = []
 
 for i in range(6):
@@ -16,7 +18,6 @@ for i in range(6):
             break
         else:
             user_numbers.append(user_number)
-            pc_numbers. append(random.randint(1, 50))
     except ValueError:
         print("It's not a number. Try one more time")
         break
