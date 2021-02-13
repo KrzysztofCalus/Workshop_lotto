@@ -1,4 +1,4 @@
-## Name: Workshop_lotto
+## Name: Lotto
 -----------------------
 ## About:
 #### It's application that let user to play in game lotto. User pick 6 numbers in range 1-49 and application check how many numbers user guess comparing to randomly chosen by computer.
